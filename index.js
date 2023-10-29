@@ -6,10 +6,10 @@ const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
 const db = mysql2.createPool({
-  host: "localhost",
-  user: "root",
-  password: "root",
-  database: "fe_01",
+  host: "ID396978_db6.db.webhosting.be",
+  user: "ID396978_db6",
+  password: "dbpass007!",
+  database: "ID396978_db6",
   timezone: "+02:00",
   dateStrings: "date",
 });
